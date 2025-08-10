@@ -1,16 +1,22 @@
 # flutter_project
 
-A new Flutter project.
+A new Flutter project — **Lang Learner App** 📚🌍  
+A fun and interactive language-learning app built with **Flutter** & **Firebase**, using chapters and quizzes to help you master new languages (example: Italian 🇮🇹).
 
-## Getting Started
+## ✨ Features
+- 📊 **3 Levels per Language**: Beginner (50 quizzes) 🐣, Intermediate (120 quizzes) 🚀, Advanced (200 quizzes) 🏆 — **370 quizzes total per language**.  
+- 📝 **Question Types**: Multiple Choice (MCQ) ✅ and Fill-in-the-Blank ✏️.  
+- 📈 **User Progress Tracking**: Completed chapters 📚, earned points 💯, quiz attempts 🔄, and badges 🏅.  
+- 🔥 **Optimized Firestore Structure**:  
+  `languages/{language}/chapters/{chapterId}/quizzes/{quizId}`  
+  `userProgress/{userId}/...`  
+- 🌐 **Multi-language Support**: Italian 🇮🇹, Spanish 🇪🇸, German 🇩🇪, French 🇫🇷, Greek 🇬🇷 — easily expandable.
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshot
+![App Screenshot](https://github.com/Muhammad-Umair-Gujjar/lang_learner_app/blob/master/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Muhammad-Umair-Gujjar/lang_learner_app.git
+   cd lang_learner_app
